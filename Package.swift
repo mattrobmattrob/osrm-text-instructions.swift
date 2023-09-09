@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "osrm-text-instructions.swift",
+    defaultLocalization: "en",
     platforms: [
         .macOS(.v10_14), .iOS(.v12), .watchOS(.v5), .tvOS(.v12)
     ],
